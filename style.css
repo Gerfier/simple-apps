@@ -1,0 +1,38 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #253374;
+}
+
+body{
+    background-color: #253374 !important;
+}
+
+
+#headings-index{
+    text-align: center;
+    color: white;
+    line-height: 4rem !important;
+    position: relative;
+    top: 15rem;  
+}
+
+h1{
+    font-family: 'Cantora One', sans-serif !important;
+    font-size: 7rem !important;
+    margin-bottom: 4rem !important; 
+}
+
+h5{
+    font-family: 'Coming Soon', cursive !important;
+    font-size: 2rem !important;
+}
+
+#arrow-icon{
+    margin-left: 1rem;
+}
+
+a{
+    color: white !important;
+}

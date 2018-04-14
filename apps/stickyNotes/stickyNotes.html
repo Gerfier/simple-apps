@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sticky Notes</title>
+
+    <!--CDN Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!--External css script-->
+    <link rel="stylesheet" href="stickyNotes.css">
+    <!--Font Awesome CDN-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!--jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    </head>
+    
+    <body>
+        <!--Navbar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">stickyNotes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style "color:white"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">                    
+                    <li class="nav-item" id="new-icon">
+                        <a href="" data-toggle="modal" data-target="#stickyNoteModal">
+                            <i class="fas fa-plus" style="color:white" id="plus-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!--stickyNotes-->
+        <section id="stickyNotes-section">
+            <div class="container-fluid">
+                <div class="row" id="stickyNotes-row">
+                    <div id="sticky-note" class="col-lg-3 col-md-6 col-sm-12">
+                        <!-- sticky Note Content-->
+                        <div class="card" mx-auto>
+                            <!-- Heading -->
+                            <div class="card-body">
+                                <h4 class="card-title">Note Title</h4>
+                                <!--<img src="C:\Users\Luis\Documents\School\TTU\2018Spring\Capstone\laborLess\employerPage\forHire.jpg" alt="category-img" height="130" width="200" style="border-radius:50%">-->
+                                <p class="card-text" style="padding-top: 3rem;">Lorem ipsum dolor sit amet, id exerci melius mea, id usu suas disputationi. Eos cu iuvaret lobortis
+                                    conceptam. Ut qui aliquando Lorem ipsum dolor sit amet, id exerci melius mea, id usu suas
+                                    disputationi. Eos cu iuvaret lobortis conceptam. Ut qui aliquando Lorem ipsum dolor sit amet,
+                                    id exerci melius mea, id</p>
+                                    <button type="button" class="btn" id="deleteNote-btn" style="color:white; background-color:#253374; border-radius: 10px">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--stickyNotes Modal....triggered when user clicks a category-->
+        <div class="modal fade" id="stickyNoteModal" tabindex="-1" role="dialog" aria-labelledby="stickyNoteModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="stickyNoteModalLabel">Create a New Note</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="note-title" class="col-form-label">Note Title:</label>
+                                <input type="text" class="form-control" id="note-title">
+                            </div>
+                            <div class="form-group">
+                                <label for="note-content" class="col-form-label">Note Content:</label>
+                                <textarea class="form-control" id="note-content"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" id="newStickyNote-btn" style="color:white; background-color:#253374; border-radius: 10px">New Note</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <!--Testing appending notes-->
+        <script src="stickyNotes.js"></script>
+    <!--Other Boostrap 4 script CDN-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

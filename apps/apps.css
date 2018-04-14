@@ -1,0 +1,36 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #253374;
+}
+
+body{
+    background-color: #253374 !important;
+}
+
+h1{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 2rem !important;
+    font-weight: bolder !important;
+    margin-top: 7rem !important; 
+    color: white !important;
+}
+
+h5{
+    font-family: 'Cantora One', sans-serif !important;
+    font-size: 2rem !important;
+}
+
+
+.card-deck{
+    margin: 1rem auto !important;
+    margin-top: 10vh !important;
+    max-width: 60rem;
+}
+
+
+.card{
+    margin: 1rem 2rem !important;
+    border-radius: 0 !important;
+}
