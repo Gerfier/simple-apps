@@ -10,15 +10,14 @@ body{
 }
 
 h1{
-    font-family: 'Lato', sans-serif !important;
+    
+    font-family: 'Roboto', sans-serif !important;
     font-size: 2rem !important;
-    font-weight: bolder !important;
     margin-top: 7rem !important; 
     color: white !important;
 }
 
 h5{
-    font-family: 'Cantora One', sans-serif !important;
     font-size: 2rem !important;
 }
 
@@ -33,4 +32,17 @@ h5{
 .card{
     margin: 1rem 2rem !important;
     border-radius: 0 !important;
+}
+
+.startApp-btn{
+    color: #fff;
+    background-color: #253374;
+    border: 2px solid #253374;
+    align-items: center;
+}
+
+.startApp-btn:hover{
+    background-color: #fff;
+    color: #253374;
+    border: 2px solid #253374;
 }
