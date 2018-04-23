@@ -14,7 +14,7 @@ h1{
     font-family: 'Roboto', sans-serif !important;
     font-size: 2rem !important;
     margin-top: 7rem !important; 
-    color: white !important;
+    color: #fff !important;
 }
 
 h5{
@@ -31,7 +31,10 @@ h5{
 
 .card{
     margin: 1rem 2rem !important;
-    border-radius: 0 !important;
+    border-radius: 2% !important;
+    -webkit-box-shadow:-10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:-10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+	box-shadow:-10px 10px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 .startApp-btn{
