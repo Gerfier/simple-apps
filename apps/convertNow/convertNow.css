@@ -6,7 +6,7 @@ html,body{
 
 
 body {
-	background-color: #bccbde !important;
+	background-color: #a4b1c2 !important;
 	margin: 0;
 	font-family: 'Gaegu', cursive;
 }
@@ -16,6 +16,13 @@ body {
 	background-color: white;
 	padding: 4rem 2rem;
 	border-radius: 2%;
+	-webkit-box-shadow: 1px 3px 38px -1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 3px 38px -1px rgba(0,0,0,0.5);
+	box-shadow: 1px 3px 38px -1px rgba(0,0,0,0.5);
+}
+
+h5{
+	margin-top: -1.5rem !important;
 }
 
 .input-group{
@@ -26,6 +33,34 @@ body {
 	background-color: white !important;
 	border: none !important;
 	padding: .375rem 0 !important;
+}
+
+.row{
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+#converter-card a{
+	margin-top: 3rem !important;
+	margin-bottom: -1rem !important;
+	
+}
+
+.form-control{
+border:none !important;
+border-bottom: 1px solid #9d9ea0 !important;
+border-radius: 0 !important;
+}
+
+:focus {
+	outline: 0 !important;
+	border: none !important;
+}
+
+#outputCelsius, #outputFahrenheit{
+	display:inline;
+	padding-top: 5rem;
+	color: rgb(211, 50, 50);
 }
 
 /*

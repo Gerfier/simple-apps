@@ -2,11 +2,11 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #253374;
+    background-color: white;
 }
 
 body{
-    background-color: #253374 !important;
+    background-color: white !important;
 }
 
 h1{
@@ -14,17 +14,17 @@ h1{
     font-family: 'Roboto', sans-serif !important;
     font-size: 2rem !important;
     margin-top: 7rem !important; 
-    color: #fff !important;
+    color:  #253374 !important;
 }
 
 h5{
-    font-size: 2rem !important;
+    font-size: 1rem !important;
 }
 
 
 .card-deck{
     margin: 1rem auto !important;
-    margin-top: 10vh !important;
+    margin-top: 8vh !important;
     max-width: 60rem;
 }
 
@@ -32,9 +32,9 @@ h5{
 .card{
     margin: 1rem 2rem !important;
     border-radius: 2% !important;
-    -webkit-box-shadow:-10px 10px 20px 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:-10px 10px 20px 10px rgba(0, 0, 0, 0.5);
-	box-shadow:-10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 84px -4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 84px -4px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 84px -4px rgba(0,0,0,0.6);
 }
 
 .startApp-btn{
