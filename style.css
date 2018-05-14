@@ -2,7 +2,7 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #253374;
+    /*background-color: #253374;*/
 }
 
 body{
@@ -15,7 +15,7 @@ body{
     color: white;
     line-height: 4rem !important;
     position: relative;
-    top: 15rem;  
+    top: 40vh;  
 }
 
 h1{

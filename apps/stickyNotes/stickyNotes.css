@@ -34,7 +34,9 @@ margin: auto 1rem;
 
 
 .card {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 2);
+  -webkit-box-shadow: 1px 8px 8px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 8px 8px -4px rgba(0,0,0,0.75);
+  box-shadow: 1px 8px 8px -4px rgba(0,0,0,0.75);
   font-weight: bold;
   color: #494C4E;
   outline-color: white;
@@ -69,19 +71,47 @@ margin: auto 1rem;
     font-size: 10px;
 }
 
+ 
+.card-options{
+    /*display:none;*/
+    padding: 0.5rem;
+    width:50%;
+}
+
+.student-options{
+    /*display:inline-block;*/
+    padding: 0.5rem;
+    float:right;
+}
+
+/*.card:hover .card-options{
+    display: inline-block !important;
+}*/
+
+.option-icon{
+    color: #c6c6c6 !important;
+    font-size: 1.5rem; 
+    display:inline-block; 
+    padding: 2px;
+}
+
+.option-icon:hover{
+    color: #253374 !important;
+}
+
 
 /*Creating sticky notes modal*/
 .form-group{
     text-align: left;
     color:#253374;
-    font-weight: bold;    
+    /*font-weight: bold;    */
 }
 
 .form-control{
     border-radius: 0 !important;
 }
 
-#stickyNotebModal{
+#stickyNoteModal{
     color: rgb(223, 53, 53);
 }
 
@@ -101,16 +131,18 @@ margin: auto 1rem;
     color:white;
 }
 
+
 input[type='text'], textarea{
     border: none !important;
-    border-bottom: solid 2px #868686 !important;
+    /*border-bottom: solid 1px #868686 !important;*/
     font-size: 1.7rem;
     max-width: 450px;
     padding: 5px 0;
     margin: 5px 0;
     letter-spacing: 2px;
+    background-color: #e9ecef !important;
 }
-
+/*
 .form-control:focus{
    border-color: inherit !important;
   -webkit-box-shadow: none !important;
@@ -121,4 +153,4 @@ textarea{
     resize: none;
     max-height: 150px;
 }
-
+*/  

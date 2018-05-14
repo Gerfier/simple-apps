@@ -21,8 +21,12 @@ $('#newStickyNote-btn').click(function () {
         + '<p class="card-text" style="padding-top: 3rem;">' + noteCont + '</p>'
         //email of course will be modified later to be only visible when employer hires a student 
         //otherwise nobody can see it
-        + '<button type="button" class="btn" id="deleteNote-btn" style="color:white; background-color:#253374; border-radius:10px">Delete</button>'
         + '</div>'
+        + '<div class= "note-options" >'
+        + '<span data-toggle="tooltip" data-placement="bottom" title="Delete Note" id="deleteNote-btn">'
+        + '<i class="fas fa-trash-alt option-icon"></i>'
+        + '</span>'
+        + '</div >'
         + '</div>'
         + '</div>');
 
