@@ -2,4 +2,4 @@
 Some simple JavaScript applications 
 
 
-You can run it using this link: https://cdn.rawgit.com/Gerfier/simple-apps/26467424/index.html
+You can run it using this link: https://cdn.rawgit.com/Gerfier/simple-apps/b48d4823/index.html
