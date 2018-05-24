@@ -78,11 +78,6 @@ margin: auto 1rem;
     width:50%;
 }
 
-.student-options{
-    /*display:inline-block;*/
-    padding: 0.5rem;
-    float:right;
-}
 
 /*.card:hover .card-options{
     display: inline-block !important;
