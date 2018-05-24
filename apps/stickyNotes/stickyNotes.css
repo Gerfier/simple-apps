@@ -25,10 +25,27 @@ body{
 .navbar a{
     color: white !important;
 }
-
+/*
 #new-icon{
 margin: auto 1rem;
+}*/
 
+#plus-icon {    
+    font-size: 2em;  
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: rgb(223, 53, 53);
+    color: #fff; 
+    cursor: pointer; 
+    padding: 0 10px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.75);
 }
 
 
@@ -38,7 +55,7 @@ margin: auto 1rem;
   -moz-box-shadow: 1px 8px 8px -4px rgba(0,0,0,0.75);
   box-shadow: 1px 8px 8px -4px rgba(0,0,0,0.75);
   font-weight: bold;
-  color: #494C4E;
+  color: #494C4E !important;
   outline-color: white;
   /*background-color: black;*/
   background-color: white;
@@ -50,15 +67,7 @@ margin: auto 1rem;
   max-height: 30rem;
   width: auto;
   padding: 1rem;
-  /*margin-bottom: 100px;*/
 }
-
-/*.card-body {
-	background: #68a2ff;
-	color: white;
-	/*padding-top: 10px;
-	padding-bottom: 5px;
-}*/
 
 #sticky-note h4{
     color: rgb(223, 53, 53);
@@ -72,16 +81,11 @@ margin: auto 1rem;
 }
 
  
-.card-options{
-    /*display:none;*/
+.note-options{
     padding: 0.5rem;
     width:50%;
 }
 
-
-/*.card:hover .card-options{
-    display: inline-block !important;
-}*/
 
 .option-icon{
     color: #c6c6c6 !important;
