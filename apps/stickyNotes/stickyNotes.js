@@ -31,6 +31,6 @@ $('#newStickyNote-btn').click(function () {
 
 //Remove note when user clicks trash icon
     $(document).on("click", '#deleteNote-btn', function () {        
-            $(this).closest("#sticky-note").remove();
+            $(this).closest("#sticky-note").hide();
     });
 
