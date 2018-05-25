@@ -15,11 +15,6 @@ $('#newStickyNote-btn').click(function () {
         + '<h4 class="card-title">' + noteTitle + '</h4>'
         + '<p class="card-text" style="padding-top: 3rem;">' + noteCont + '</p>'
         + '</div>'
-        + '<div class= "note-options" >'
-        + '<span data-toggle="tooltip" data-placement="bottom" title="Delete Note" id="deleteNote-btn">'
-        + '<i class="fas fa-trash-alt option-icon"></i>'
-        + '</span>'
-        + '</div >'
         + '</div>'
         + '</div>');
 
@@ -28,9 +23,4 @@ $('#newStickyNote-btn').click(function () {
 
 
 });
-
-//Remove note when user clicks trash icon
-    $(document).on("click", '#deleteNote-btn', function () {        
-            $(this).closest("#sticky-note").hide();
-    });
 

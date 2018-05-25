@@ -12,8 +12,6 @@ body{
 .navbar{
     background-color: rgb(223, 53, 53) !important;
     box-shadow: 5px 5px 20px black;
-    /*position: fixed;
-    width: 99%;*/
 }
 
 .navbar-brand{
@@ -25,11 +23,8 @@ body{
 .navbar a{
     color: white !important;
 }
-/*
-#new-icon{
-margin: auto 1rem;
-}*/
 
+/*add new note button*/
 #plus-icon {    
     font-size: 2em;  
     position: fixed;
@@ -49,7 +44,7 @@ margin: auto 1rem;
 }
 
 
-
+/*for reach note I am customizing bootstrap card*/
 .card {
   -webkit-box-shadow: 1px 8px 8px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 8px 8px -4px rgba(0,0,0,0.75);
@@ -57,7 +52,6 @@ margin: auto 1rem;
   font-weight: bold;
   color: #494C4E !important;
   outline-color: white;
-  /*background-color: black;*/
   background-color: white;
   float: none;
   margin: 1rem;
@@ -80,30 +74,10 @@ margin: auto 1rem;
     font-size: 10px;
 }
 
- 
-.note-options{
-    padding: 0.5rem;
-    width:50%;
-}
-
-
-.option-icon{
-    color: #c6c6c6 !important;
-    font-size: 1.5rem; 
-    display:inline-block; 
-    padding: 2px;
-}
-
-.option-icon:hover{
-    color: #253374 !important;
-}
-
-
-/*Creating sticky notes modal*/
+/*Customizing sticky notes modal*/
 .form-group{
     text-align: left;
     color:#253374;
-    /*font-weight: bold;    */
 }
 
 .form-control{
@@ -133,7 +107,6 @@ margin: auto 1rem;
 
 input[type='text'], textarea{
     border: none !important;
-    /*border-bottom: solid 1px #868686 !important;*/
     font-size: 1.7rem;
     max-width: 450px;
     padding: 5px 0;
@@ -141,15 +114,4 @@ input[type='text'], textarea{
     letter-spacing: 2px;
     background-color: #e9ecef !important;
 }
-/*
-.form-control:focus{
-   border-color: inherit !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-}
 
-textarea{
-    resize: none;
-    max-height: 150px;
-}
-*/  
